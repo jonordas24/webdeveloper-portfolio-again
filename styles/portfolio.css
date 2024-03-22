@@ -1,0 +1,173 @@
+/* shared component styles */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    padding: 18px 36px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+}
+
+.btn-secondary {
+    padding: 18px 36px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+/* navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+
+/* header styles */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 30px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 30px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-gretting {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #181818;
+}
+
+.banner-description {
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner-profile-pic {
+    width: 580px;
+}
+
+/* main styles */
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about styles */
+.about {
+    padding: 130px 150px;
+    background: #FFF8F3;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.section-description{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.about-info-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about-info{
+    align-items: center;
+}
+
+.info-title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #757575;
+}
+
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+/* what I do styles */
